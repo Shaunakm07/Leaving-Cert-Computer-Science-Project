@@ -4,5 +4,10 @@
 // function declarations
 int readSoilMoisture();
 
-int readTempHumidity();
+float readHumitidySensor();
+
+float readTemperatureSensor();
+
+void initiateDHT();
+
 #endif
